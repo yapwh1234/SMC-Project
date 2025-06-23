@@ -1,31 +1,45 @@
-# Bitcoin-Sentiment-Analysis
-Social Media Computing Project
+# The Influence of Twitter Sentiment on Bitcoin Price Movements
 
-## 🔑 Features
-
-- 💬 **Chat-Based Interaction**: Users can ask for recipes using keywords like "spicy chicken", "vegetarian", or "quick dinner".
-- 🧠 **Basic NLP Matching**: The chatbot detects key words and categories using simple keyword expansion and fuzzy matching.
-- 📦 **Persistent Recipe Storage**: Saved recipes are stored using `localStorage`, so they remain available even after page refresh or browser restart.
-- 📋 **Expanded Recipe Dataset**: A wider variety of recipes with images, instructions, and categories.
-- 🌙 **Dark/Light Mode Toggle**: Switch between light and dark themes with one click.
-- ✅ **Save, View, and Remove Recipes**: Manage saved recipes with user-friendly buttons and feedback messages.
+This project explores the relationship between public sentiment on Twitter and Bitcoin price movements from 2015 to 2025. By analyzing over 4.8 million tweets and applying various Natural Language Processing (NLP) and machine learning techniques, the study aims to uncover patterns that indicate whether Twitter sentiment serves as a leading or lagging indicator of market behavior.
 
 
-## 📁 Folder Structure
+## Data Visualization
 
-- `main.html`: Main app logic, UI, and React components
-- `recipe.js`: External dataset of recipe objects (title, ingredients, instructions, image)
-- `image folder`: Support image of each recipe
+Visual screenshots such as sentiment trends over time, model comparison bar charts (Accuracy, F1-score), and a tweet-based word cloud have been added to the final report to visually support analysis findings. These visuals help illustrate how public sentiment has evolved and how each model performed.
 
-## 🛠️ Setup instructions
+(![Model Performance](https://github.com/user-attachments/assets/64f9230e-b41d-496b-aef2-ee95f1e8ed06)
+)  
+*Figure: Comparison across all model*
 
-- Extract the zip folder and put at desktop.
-- Drag whole folder to the vscode to open it.
-- Download `Live Server` extension and right click the `main.html` file and select `open with Liver Server` option.
-- You can start to use the system.
 
-## 👨‍💻 Data Visualizations
+## Tools & Technologies
 
+- Python (Pandas, NLTK, spaCy, Sklearn, Transformers, PyTorch)  
+- Pretrained Models: `bert-base-uncased`, `deberta-v3-base-absa-v1.1`  
+- Sentiment Tools: VADER, TextBlob, Afinn  
+- Jupyter Notebook  
+- Matplotlib, Seaborn  
+
+## Key Features
+
+- **Tweet Preprocessing**: Tokenization, lemmatization, stopword removal  
+- **Feature Engineering**: TF-IDF, Word2Vec, contextual embeddings  
+- **Sentiment Analysis**: Lexicon-based + fine-tuned transformer models  
+- **Model Comparison**: Logistic Regression, SVM, BiLSTM, Hier-GCNN, BERT (DeBERTa)  
+- **Evaluation Metrics**: Accuracy, Precision, Recall, F1 Score, Confusion Matrix  
 
 ## Future Work
-To build on the findings of this study, future work can focus on more advanced temporal modeling techniques to better understand the lead-lag relationship between Twitter sentiment and Bitcoin price fluctuations. Implementing multi-label sentiment classification that captures emotional tones such as fear, greed, or excitement could yield more nuanced insights into market psychology. Additionally, fine-tuning transformer models on finance-specific corpora could enhance the system's contextual accuracy for cryptocurrency discourse. Finally, developing a real-time, interactive dashboard that continuously analyzes live tweets and overlays them with Bitcoin price trends would provide practical value for traders and analysts seeking timely sentiment insights.
+
+Moving forward, this project can be extended in several directions:
+
+1. **Temporal Causality Analysis**: Applying Granger causality tests to assess whether sentiment movements predict Bitcoin price fluctuations.  
+2. **Emotion Classification**: Enhancing sentiment classification beyond positive/negative to include fear, greed, hype, and uncertainty.  
+3. **Domain-Specific Fine-Tuning**: Further refining transformer models using financial-specific corpora to improve domain relevance.  
+4. **Real-Time Monitoring**: Deploying a live dashboard for real-time Bitcoin sentiment tracking with price overlay.  
+
+## Contributors
+
+- **Choo Chee Choong** (1221302637) – MMU  
+- **Yap Weng Hong** (1211103023) – MMU  
+
+
