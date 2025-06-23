@@ -2,6 +2,11 @@
 
 This project explores the relationship between public sentiment on Twitter and Bitcoin price movements from 2015 to 2025. By analyzing over 4.8 million tweets and applying various Natural Language Processing (NLP) and machine learning techniques, the study aims to uncover patterns that indicate whether Twitter sentiment serves as a leading or lagging indicator of market behavior.
 
+## Team Members
+
+- **Choo Chee Choong** TT5L (1221302637) – MMU  
+- **Yap Weng Hong** TT5L (1211103023) – MMU
+
 ## Installation Guide
 
 1. **Clone the repository:**
@@ -62,9 +67,6 @@ Moving forward, this project can be extended in several directions:
 3. **Domain-Specific Fine-Tuning**: Further refining transformer models using financial-specific corpora to improve domain relevance.  
 4. **Real-Time Monitoring**: Deploying a live dashboard for real-time Bitcoin sentiment tracking with price overlay.  
 
-## Contributors
 
-- **Choo Chee Choong** (1221302637) – MMU  
-- **Yap Weng Hong** (1211103023) – MMU  
 
 
