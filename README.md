@@ -2,14 +2,39 @@
 
 This project explores the relationship between public sentiment on Twitter and Bitcoin price movements from 2015 to 2025. By analyzing over 4.8 million tweets and applying various Natural Language Processing (NLP) and machine learning techniques, the study aims to uncover patterns that indicate whether Twitter sentiment serves as a leading or lagging indicator of market behavior.
 
+## Installation Guide
 
+1. **Clone the repository:**
+```bash
+git clone https://github.com/yapwh1234/SMC-Project
+```
+
+2. **Download the dataset manually** (due to size restrictions):
+- Go to [this Kaggle notebook](https://www.kaggle.com/code/erdeq1024/bitcoin-price-analysis-by-tweets?select=Bitcoin_tweets.csv)
+- Download the file `Bitcoin_tweets.csv` and place it in the `./data` folder.
+
+4. **Run the Jupyter notebooks:**
+```bash
+jupyter notebook
+```
+
+---
 ## Data Visualization
 
-Visual screenshots such as sentiment trends over time, model comparison bar charts (Accuracy, F1-score), and a tweet-based word cloud have been added to the final report to visually support analysis findings. These visuals help illustrate how public sentiment has evolved and how each model performed.
+### 1. Sentiment Distribution Comparison
+![Sentiment Comparison]((https://github.com/user-attachments/assets/d366f870-f8ae-4b54-bd99-78aba5af31b4)
 
-(![Model Performance](https://github.com/user-attachments/assets/64f9230e-b41d-496b-aef2-ee95f1e8ed06)
-)  
-*Figure: Comparison across all model*
+### 2. TextBlob Sentiment Strength Distribution
+![TextBlob Strength](https://github.com/user-attachments/assets/03fdce83-aa3f-4139-8e3a-15924fb806a8)
+
+### 3. VADER Sentiment Strength Distribution
+![VADER Strength](https://github.com/user-attachments/assets/add91c01-db19-45bf-82c0-3e49862cbfe0)
+
+### 4. AFINN Sentiment Strength Distribution
+![AFINN Strength](https://github.com/user-attachments/assets/90e15a6f-635e-441b-9349-3236f927a4e5)
+
+### 5. Model Performance Comparison (Accuracy, Precision, Recall, F1)
+![Model Performance](https://github.com/user-attachments/assets/64f9230e-b41d-496b-aef2-ee95f1e8ed06)
 
 
 ## Tools & Technologies
