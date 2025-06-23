@@ -22,7 +22,7 @@ jupyter notebook
 ## Data Visualization
 
 ### 1. Sentiment Distribution Comparison
-![Sentiment Comparison]((https://github.com/user-attachments/assets/d366f870-f8ae-4b54-bd99-78aba5af31b4)
+![Sentiment Comparison](https://github.com/user-attachments/assets/d366f870-f8ae-4b54-bd99-78aba5af31b4)
 
 ### 2. TextBlob Sentiment Strength Distribution
 ![TextBlob Strength](https://github.com/user-attachments/assets/03fdce83-aa3f-4139-8e3a-15924fb806a8)
